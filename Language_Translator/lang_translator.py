@@ -11,7 +11,7 @@ avail_langs = input('Before translating text, would you like to see a list of av
 # Use an 'if' statement to determine whether the program should print the list of available languages. 
 if avail_langs == 'y':
     print(googletrans.LANGUAGES)
-# Print a groovy little space cause why not lmao.
+# Create an instance of print.
 print()
 # Enter the text you want to be translated into the variable 'text' below. Make sure that there are three apostrophes (') before and after the text you would like translated. 
 source_text = '''xxxxxxxx'''
@@ -20,7 +20,7 @@ translator = Translator()
 # Automatically detect the source language of the text.
 detect_language = translator.detect(source_text)
 print(detect_language)
-# Print another groovy little space cause why not lmao.
+# Create an instance of print.
 print()
 # Translate the source language to the destination language. If destination language is NOT specified -- dest(destination language) -- program will automatically translate source text to English.
 # NOTE: translate(self, text, dest='en', src='auto', **kwargs)

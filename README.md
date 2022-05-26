@@ -1,2 +1,2 @@
-# Games
-Files for all game-dev projects.
+# Personal_Projects
+Files for all personal programming projects.

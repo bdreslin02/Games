@@ -1,2 +1,2 @@
-# Personal_Projects
+# Personal Projects
 Files for all personal programming projects.
